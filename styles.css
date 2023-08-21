@@ -1,0 +1,231 @@
+body { /* ajustes para a tag body */
+    margin: 0; /* ajusta as margens dos cantos do site */ 
+    padding: 0; /* ajusta as margens dos cantos do site */
+}
+
+.iconeredes {
+    display: flex; /* Deixa os elementos na horizontal */
+    align-items: center; 
+    margin-top: 22px; /* Ajusta a margem externa do topo */
+    list-style: none; /* Define o tipo de lista. nesse caso sem o ponto */
+    position: absolute; /* posição absoluta */
+    margin-left: 430px; /* Ajusta a margem externa da esquerda */
+    padding-left: 0px; /* Ajusta a margem interna da esquerda*/
+}
+
+.face { /* Ajusta o tamanho do ícone facebook */
+    width: 30px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.insta { /* Ajusta o tamanho do ícone instagram */
+    width: 30px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.twitter { /* Ajusta o tamanho do ícone twitter */
+    width: 30px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.youtube { /* Ajusta o tamanho do ícone youtube */
+    width: 30px; /* Ajusta largura */
+    height: auto; /* Ajusta altura automático */
+}
+
+.iconeredes li { /* Ajusta o espaçamento entre os ícones */
+    margin-left:26px; /* Ajuste de margem da esquerda */
+}
+
+.botoes-login-criarconta {
+    position:absolute; /* habilita as alterações de posição */
+    margin-left: 1276px; /* Ajuste da margem esquerda */
+    margin-top: 22px; /* Ajusta da margem do topo */
+}
+
+.botao-login,
+.botao-criarconta {
+    font-weight: bold; /* Escolhe a família da fonte */
+    padding: 10px; /* Espaçamento interno de todos os lados */
+    background-color: #ffbc0d; /* Cor de fundo */
+    color: #DB0007; /* cor do texto */
+    border: none; /* sem cor na borda */
+    border-radius: 50px; /* Coloca bordas arredondadas */
+    cursor: pointer; /* Muda a seta do mouse para uma mão de clique */
+    margin-left: 20px; /* Ajuste da margem esquerda */
+}
+
+.botao-login:hover, /* Usamos o /hover para mudar a cor quando passamos o mouse por cima */
+.botao-criarconta:hover {
+    background-color: #FFF; /* Muda a cor do fundo do botão */
+    color: #db0007; /* Muda a cor do texto */
+}
+
+nav {
+    background-color: #db0007; /* Muda a cor do fundo do menu */
+    padding: 0px; /* Deixa sem o espaçamento interno */
+}
+
+nav ul {
+    list-style: none; /* Define o tipo de lista, neste caso sem o ponto*/ 
+    padding-top: 0px; /* Deixa sem o espaçamento interno no topo */
+    padding-bottom: 29px; /* Coloca o espaçamento interno no botão */
+    margin: 0px; /* Deixa sem o espaçamento externo no topo */
+    display: flex; /* Deixa a lista na horizontal */
+    justify-content: center; /* Justifica o conteúdo do centro */
+    font-family: 'Roboto', sans-serif; /* Define o tipo de fonte - roboto e sem serifa */
+    font-weight: bold; /* Define a família da fonte - bold */ 
+    font-size: 15px; /* Define o tamanho da fonte */
+}
+
+nav li {
+    margin-left: 35px; /* Define o espaçamento externo esquerdo */
+    margin-right: 35px; /* Define o espaçamento externo direito */
+    padding-top: 76px; /* Define o espaçamento interno no topo */
+}
+
+nav a {
+    color:#ffbc0d; /* Define a cor do texto */
+    text-decoration: none; /* nome - tira o sublinhado do texto */
+}
+
+nav a:hover { /* Usamos o /hover para mudar a cor quando passamos o mouse por cima */
+    color:#FFF; /* Define a cor do texto */
+}
+
+.logomc { 
+    width: auto; /* Deixa a largura na medida automatica */ 
+    height: 70px; /* Define o tamanho da altura */
+    padding-top: 30px; /* Define o espaçamento interno no topo */
+    padding-bottom: 0px; /* Define o espaço entre o botão */
+}
+
+.banner img {
+    position: relative;
+    height: auto; /* Deixa a altura na medida automatica */
+    width: 100%; /* Deixa a largura na medida 100% ajustada as laterais */
+}
+
+.oferta-do-dia {
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 130px;
+
+}
+
+.oferta-do-dia h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    font-weight: bold; 
+    color:#db0007;
+}
+
+.linha-amarela-left,
+.linha-amarela-right {
+    position: absolute;
+    top: 812px;
+    height: 7px;
+    width: 749px;
+    background-color: #ffbc0d;
+    border-radius: 16px;
+}
+
+.linha-amarela-left {
+    left: 108px;
+}
+
+.linha-amarela-right {
+    right: 108px;
+}
+
+.oferta-imagens{
+    display: flex;
+    padding: 0px;
+}
+
+.mc{
+    width: 225px;
+    height: auto;
+}
+
+.preco {
+    position: relative;
+    top: -80px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color:#DB0007;
+}
+
+.descricao h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(95, 95, 95)
+}
+
+.descricao {
+    margin-top: -50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.comprar {
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #db0007;
+    color: #ffbc0d;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-bottom: 93px;
+    font-size: 15px;
+}
+
+.comprar:hover {
+    background: #ffbc0d;
+    color: #db0007;
+}
+
+.linha{
+    position: absolute;
+    margin-top: 430px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 6px;
+    width: 1717px;
+    background-color: #e1e1e1;
+    border-radius: 25px;
+
+}
+
+.conteudorodape{
+    margin-top: -38px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudorodape ol{
+    margin-top: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    list-style: none;
+    padding-bottom: 10px;
+    color: #FFBC0D;
+}
+
+.coluna1 li, .coluna2 li, .coluna3 li {
+    padding: 15px;
+}
+
+.copy {
+    background-color: #980005;
+    color: #FFBC0D;
+    text-align: center;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+
+}
